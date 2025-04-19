@@ -41,7 +41,7 @@ const AuthForm = ({ input, type, onChange, fields, buttonLabel }) => {
   };
 
   return (
-    <fieldset className="fieldset md:w-sm w-xs shadow-md border border-base-200 p-8 rounded-box">
+    <fieldset className="fieldset bg-white md:w-sm w-xs shadow-md border border-base-200 p-8 rounded-box">
       <dialog id="my_modal_1" className="modal">
         <div className="modal-box">
           <h3 className="font-bold text-lg">Congratulations!</h3>
