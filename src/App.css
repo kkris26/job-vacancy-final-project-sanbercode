@@ -1,0 +1,15 @@
+.container {
+  padding: 20px 20px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 12px;
+  box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.09);
+}
+.btn-click{
+  width: 100%;
+  padding: 10px 20px;
+}
+.count{
+  text-align: center;
+}
