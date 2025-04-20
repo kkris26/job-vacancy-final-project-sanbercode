@@ -36,6 +36,15 @@ const JobTable = ({ action }) => {
       sortable: true,
     },
     {
+      name: "Status",
+      selector: (row) =>
+        row.job_status === 1 ? (
+          <p className="text-green-600">Active</p>
+        ) : (
+          <p className="text-red-600">Non-Active</p>
+        ),
+    },
+    {
       name: "Icon",
       cell: (row) => (
         <img
